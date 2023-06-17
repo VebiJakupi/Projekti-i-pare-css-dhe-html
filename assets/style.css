@@ -1,0 +1,437 @@
+
+
+.material-symbols-outlined {
+    display: flex;
+    justify-content: left;
+
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+    }
+body{
+    background-color: rgb(201, 8, 47);
+    margin: 0px;
+}
+.logo{
+    width: 300px;
+    
+    transition: all .4s;  
+    transition-timing-function: ease-in-out;
+    !important
+}
+.menu{
+    background-color: rgb(201, 8, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    float: right;
+    margin: 20px;
+    border: 0px;
+    transition: all .4s ;
+    transition-delay: .2s;
+    transition-timing-function: ease-in-out;
+}
+.menu:hover{
+    background-color: rgb(238, 177, 177);
+}
+.logo:hover{
+
+    width: 380px;
+}
+
+.container{
+    float: center;
+    margin: 0px auto;
+    color: white;
+}
+.div-header{
+    margin: 0 auto;
+    float: center;
+    place-content: center;
+    color: white;
+    min-height: 200px;
+    max-width: 600px;
+    margin-bottom: 150px;
+}
+
+
+/*header-card*/
+.header-card{
+
+    border: 2px solid white;
+    border-radius: 14px;
+    display: grid;
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    color: BLACK;
+    margin-left: -100px;
+    margin-right: 200px;
+    margin-top: 70px;
+    transition: all .4s;
+    transition-timing-function: ease-in-out;
+}
+
+.header-card:hover{
+width: 350px;
+height: 230px;
+font-size: 18px;
+}
+
+.h-c{
+    margin-left: -140px;
+}
+
+.h-c:hover{
+    font-size: 18px;
+}
+
+.content{
+    width: 500px;
+    align-items: center;
+    margin: 0 auto;
+}
+.block{
+    display: block;
+}
+.viza{
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+h1{
+    width: 300px;
+    margin: 0 128px;
+}
+.nav{
+    color: rgb(114, 108, 108);
+    place-items: center;
+    background-color: white;
+    padding: 100px;
+    font-size: 18px;
+}
+
+nav h2{
+    font-size: 50px;
+}
+
+.mjeshtri{
+    width: 600px;
+    position: relative;
+    margin-top: -9%;
+
+}
+.after-photo{
+    float: right;
+    width: 820px;
+    margin-top: 150px;
+    color: white;
+}
+.after-photo h2{
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.after-photo span{
+    font-size: 30px;
+}
+
+.b-2{
+}
+
+.border{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    border: 2px solid white;
+    border-radius: 14px;
+    display: grid;
+    margin: 80px;
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    margin-left: 180px;
+    color: BLACK;
+    transition: all .4s;
+    transition-timing-function: ease-in-out;
+     }
+
+.card:hover{
+
+    width: 350px;
+    height: 230px;
+    font-size: 18px;
+}
+/*
+.header-card{
+
+    border: 2px solid white;
+    border-radius: 14px;
+    display: grid;
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    color: BLACK;
+    margin-left: -100px;
+    margin-right: 200px;
+    margin-top: 70px;
+    transition: all .4s;
+    transition-timing-function: ease-in-out;
+}
+
+.header-card:hover{
+width: 350px;
+height: 230px;
+font-size: 20px;
+}*/
+
+.card h2{
+    margin-bottom: 0px;
+}
+.inquire-now{
+    font-size: 40px;
+    color: white;
+    margin-top: -20px;
+    margin-left: 140px;
+}
+.registration{
+    background-color: white;
+}
+.registration h3{
+    text-align: center;
+    font-size: 28px;
+    color: grey;
+}
+.registration p{
+    text-align: center;
+    font-size: 22px;
+    color: grey;
+    width: 912px;
+    margin: 0 auto;
+}
+
+.f-i{
+    margin-left: 470px;
+    margin-top: 50px;
+}
+
+input{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+
+}
+
+.s-i{
+    margin-left: 470px;
+    margin-top: 50px;
+}
+textarea{
+    margin-left: 470px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+
+}
+.submit{
+    margin-left: -72px;
+    margin-bottom: 60px;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgb(201, 8, 47);
+    color: white;
+    transition: all .3s;
+}
+
+.footer{
+    color: white;
+    float: left;
+}
+
+.submit:hover{
+    color: grey;
+
+}
+
+
+@media (max-width: 576px) {
+    /*header*/
+    body{
+        width: 100%;
+    }
+    .logo{
+       max-width: 30%;
+    }
+    .material-symbols-outlined{
+        display: none;
+    }
+    
+.logo:hover{
+width: 50%;
+}
+
+.container{
+    width: 100%;
+    font-size: 50%;
+}
+.div-header{
+    width: 100%;
+    font-size: 50%;
+}
+.viza{
+    width: 15%;
+
+}
+
+h1{
+    margin: 0 22%;
+}
+.menu{
+margin: 0px 27%;
+font-size: 10%;
+}
+
+
+.border{
+    display: block;
+}
+.header-card{
+    width: 60%;
+    margin-left: 30% !important;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h-c{
+    margin-right: 15%;
+}
+
+.header-card:hover{
+width: 100%;
+}
+
+/*content*/
+
+
+.f-10{
+    font-size: 10px;
+}
+
+.container{
+    padding: 4%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+nav{
+    width: 100%;
+}
+
+nav h2 {
+    width: 100%;
+    font-size: 18px;
+    padding: 0%;
+}
+
+nav p{
+    width: 100%;
+}
+
+.mjeshtri{
+    width: 70%;
+    margin: 0px 15%;
+    margin-top: -20%;
+}
+.after-photo{
+    display: none;
+}
+
+.inquire-now{
+    display: none;
+}
+
+.card{
+    margin-top: 5%;
+}
+
+/*border message*/
+.b-2{
+    width: 100%;
+    margin-left: -30%;
+}
+
+
+input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+
+textarea{
+    margin-left: auto;
+    margin-left: 5%;
+    margin-bottom: ;
+    border-radius: ;
+    width: 90%;
+
+}
+.submit{
+    margin-left: 20px;
+    margin-bottom: ;
+    width: ;
+    height: ;
+    border-radius: ;
+    background-color:rgb(201, 8, 47);
+    color: white;
+    transition: all .3s;
+}
+.registration{
+    background-color: white;
+    background: #fff;
+    margin-right: -30px;
+}
+.registration h3{
+    text-align: center;
+    font-size: auto;
+    color: grey;
+}
+.registration p{
+    text-align: center;
+    font-size: auto;
+    color: grey;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.f-i{
+    margin-left: auto;
+    margin-top: auto;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+
+.s-i{
+    margin-left: auto;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+
+}
